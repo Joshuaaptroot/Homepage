@@ -1,0 +1,190 @@
+body {
+  background-color: bisque;
+}
+
+@keyframes rotater {
+  from {
+    transform: rotate(0deg);
+    animation-timing-function: linear;
+  }
+  to {
+    transform: rotate(360deg);
+    animation-timing-function: linear;
+  }
+}
+@keyframes b-rotater {
+  from {
+    transform: rotate(0deg);
+    animation-timing-function: linear;
+  }
+  to {
+    transform: rotate(-360deg);
+    animation-timing-function: linear;
+  }
+}
+@keyframes speed-rotater {
+  from {
+    transform: rotate(0deg);
+    animation-timing-function: ease-in-out;
+  }
+  to {
+    transform: rotate(360deg);
+    animation-timing-function: ease-in-out;
+  }
+}
+@keyframes armAnimation {
+  100%, 0% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(70deg);
+  }
+}
+.gear {
+  position: fixed;
+  left: 81%;
+  top: 18%;
+  transform: translateX(0%);
+  animation: rotater 40s infinite linear;
+  width: 7%;
+  height: auto;
+}
+
+.gear-2 {
+  position: fixed;
+  left: 76%;
+  top: 30%;
+  transform: translateX(0%);
+  animation: rotater 30s infinite linear;
+  width: 4%;
+  height: auto;
+}
+
+.gear-3 {
+  position: fixed;
+  left: -25%;
+  top: 57%;
+  transform: translateX(0%);
+  animation: rotater 120s infinite linear;
+  width: 50%;
+  height: auto;
+}
+
+.gear-4 {
+  position: fixed;
+  left: 18%;
+  top: 80%;
+  transform: translateX(0%);
+  animation: b-rotater 85s infinite linear;
+  width: 25%;
+  height: auto;
+}
+
+.gear-5 {
+  position: fixed;
+  left: -13%;
+  top: 27%;
+  transform: translateX(0%);
+  animation: b-rotater 70s infinite linear;
+  width: 25%;
+  height: auto;
+}
+
+.gear-6 {
+  position: fixed;
+  left: 75%;
+  top: 19%;
+  transform: translateX(0%);
+  animation: b-rotater 70s infinite linear;
+  width: 7%;
+  height: auto;
+  z-index: -100;
+}
+
+.gear-7 {
+  position: fixed;
+  left: -8%;
+  top: 13%;
+  transform: translateX(0%);
+  animation: b-rotater 70s infinite linear;
+  width: 15%;
+  height: auto;
+  z-index: -100;
+}
+
+.gear-8 {
+  position: fixed;
+  left: 30%;
+  top: 83%;
+  transform: translateX(0%);
+  animation: rotater 70s infinite linear;
+  width: 20%;
+  height: auto;
+  z-index: -100;
+}
+
+.gear-9 {
+  position: fixed;
+  left: -9%;
+  top: 43%;
+  transform: translateX(0%);
+  animation: rotater 70s infinite linear;
+  width: 25%;
+  height: auto;
+  z-index: -100;
+}
+
+.gear-10 {
+  position: fixed;
+  left: 8%;
+  top: 66%;
+  transform: translateX(0%);
+  animation: rotater 70s infinite linear;
+  width: 25%;
+  height: auto;
+  z-index: -100;
+}
+
+/*coloured gears*/
+.gearcolour {
+  position: fixed;
+  display: none;
+  left: -25%;
+  top: 57%;
+  transform: translateX(0%);
+  animation: rotater 120s infinite linear;
+  width: 50%;
+  height: auto;
+}
+
+.gearcolour-2 {
+  display: none;
+  position: fixed;
+  left: 18%;
+  top: 80%;
+  transform: translateX(0%);
+  animation: b-rotater 85s infinite linear;
+  width: 25%;
+  height: auto;
+}
+
+.gearcolour-3 {
+  display: none;
+  position: fixed;
+  left: -13%;
+  top: 27%;
+  transform: translateX(0%);
+  animation: b-rotater 70s infinite linear;
+  width: 25%;
+  height: auto;
+}
+
+/*pipes*/
+.pipes {
+  height: auto;
+  max-width: 100%;
+  z-index: -50;
+  position: fixed;
+  transform: translatez(50%);
+  left: 0%;
+}/*# sourceMappingURL=gears.css.map */
