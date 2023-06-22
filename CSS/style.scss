@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  border-style: none none;
+  cursor: pointer;
+}
+
+/*warning*/
+.warning {
+  position: fixed;
+  bottom: 140px;
+}
+
+
+/*dropdown tab*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/*exit cross*/
+
+@keyframes slide {
+  0% {
+    transform: translateX(-10cm);
+    animation-timing-function: ease-out;
+  }
+
+  100% {
+    transform: translateX(0cm);
+    animation-timing-function: ease-out;
+  }
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+    animation-timing-function: ease-out;
+  }
+
+  100% {
+    transform: rotate(1440deg);
+    animation-timing-function: ease-out;
+  }
+}
+
+@keyframes b-slide {
+  0% {
+    transform: translateX(0cm);
+    animation-timing-function: ease-out;
+  }
+
+  100% {
+    transform: translateX(-10cm);
+    animation-timing-function: ease-out;
+  }
+}
+
+@keyframes b-rotation {
+  from {
+    transform: rotate(0deg);
+    animation-timing-function: ease-out;
+  }
+
+ to {
+    transform: rotate(1440deg);
+    animation-timing-function: ease-out;
+  }
+}
+
+#leave {
+  display: none;
+
+
+}
+
+.adder {
+  position: fixed;
+  left: 70%;
+  top: 40%;
+  transform: translateX(0%);
+  width: 187px;
+  height: 187px;
+  animation: slide 1.5s;
+}
+
+.exit {
+width: 100%
+}
+
+
+#cross {
+  width: 187px;
+  height: 187px;
+  animation: rotation 1.5s linear;
+  z-index: 1;
+}
+
+.cross-animated {
+  animation: b-slide 1.5s linear;
+}
+
+.cross-animated-2 {
+  animation: b-rotation 1.5s linear;
+}
+
+
+
+/* body and centre image */
+
+body {
+  background-color: bisque;
+  margin: 0;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+
+#josh {
+  width: 22%;
+  height: auto;
+}
+/*wrapper*/
+
+.wrapper {
+  width: 100%;
+
+}
+
+/*mouse*/
+
