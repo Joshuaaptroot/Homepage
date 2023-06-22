@@ -22,7 +22,7 @@ body {
 .glowing-btn {
   position: absolute;
   top: 6%;
-  right: 36%;
+  right: 40%;
   color: var(--glow-color);
   cursor: pointer;
   padding: 0.35em 1em;
@@ -79,7 +79,7 @@ body {
 }
 
 .glowing-btn:hover {
-  color: rgb(16, 154, 23);
+  color: #ffff;
   border: 2px solid rgb(123, 94, 57);
   box-shadow: 0 0 0px var(--color);
   text-shadow: none;
